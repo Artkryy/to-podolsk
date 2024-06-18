@@ -1,0 +1,197 @@
+// HERO //
+
+.hero {
+  position: relative;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background-image: url("../img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 1;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  &__container {
+    display: flex;
+    column-gap: 32px;
+  }
+
+  &__wrapper {
+    position: relative;
+    z-index: 2;
+    color: var(--white);
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  &__form-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+}
+
+.description {
+  &__title {
+    margin-bottom: 15px;
+    max-width: 100%;
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin: 0;
+    max-width: 100%;
+    font-size: 32px;
+    letter-spacing: 5px;
+  }
+
+  &__item {
+    margin-bottom: 15px;
+    max-width: 100%;
+    line-height: 1.9;
+    font-size: 24px;
+  }
+
+  &__price {
+    padding: 5px;
+    max-width: 100%;
+    background-color: var(--lochmara);
+    border-radius: 10px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px;
+  max-width: 500px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--black);
+
+  &__title {
+    margin-bottom: 15px;
+    text-align: center;
+    max-width: 100%;
+    font-size: 28px;
+  }
+
+  &__descr {
+    margin-bottom: 15px;
+    max-width: 100%;
+    font-size: 18px;
+  }
+
+  &__input-name,
+  &__input-tel,
+  &__input-descr {
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    min-height: 50px;
+    width: 80%;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid var(--lochmara);
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+    color: var(--black);
+  }
+
+  &__input-name::placeholder,
+  &__input-tel::placeholder,
+  &__input-descr::placeholder {
+    color: var(--gray-2);
+  }
+
+  &__input-name:focus-visible,
+  &__input-tel:focus-visible,
+  &__input-descr:focus-visible {
+    outline: 2px solid var(--lochmara);
+  }
+
+  &__input-descr {
+    padding: 12px;
+    margin-bottom: 20px;
+    min-height: 100px;
+    resize: none;
+  }
+
+  &__custom-checkbox {
+    margin-bottom: 15px;
+    font-size: 14px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  &__send-result {
+    text-align: center;
+  }
+}
+
+.custom-checkbox {
+  &__input {
+    position: absolute;
+    appearance: none;
+  }
+
+  &__input:focus ~ &__text {
+    outline: 2px solid var(--lochmara);
+    outline-offset: 4px;
+  }
+
+  &__text {
+    position: relative;
+    display: block;
+    padding-left: 18px;
+  }
+
+  &__text::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--lochmara);
+    transform: translateY(-50%);
+  }
+
+  &__text::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/checkbox.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity .3s;
+  }
+
+  &__input:checked+&__text::after {
+    opacity: 1;
+  }
+
+}

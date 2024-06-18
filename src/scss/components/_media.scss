@@ -1,0 +1,545 @@
+@media (max-width: 1820px) {
+  // HEADER //
+  .header {
+    &__contacts-wrap {
+      display: none;
+    }
+  }
+
+  // HERO //
+
+  .hero {
+    &__description {
+      width: 60%;
+    }
+
+    &__form-wrap {
+      width: 40%;
+    }
+  }
+
+  // SERVICES //
+
+  .services {
+    &__inner {
+      flex-direction: column;
+    }
+
+    &__card-wrap {
+      width: 100%;
+    }
+
+    &__description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 750px;
+      width: 100%;
+    }
+
+    &__descr {
+      text-align: center;
+    }
+
+    &__swiper_1460-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+    }
+
+    &__certificate-swiper {
+      width: 60%;
+      border: 1px solid var(--black);
+      border-radius: 15px;
+    }
+
+    &__certificate-swiper--first {
+      transform: rotate(-90deg);
+    }
+
+    &__certificate {
+      top: -140px;
+      left: -220px;
+    }
+
+    &__certificate--first {
+      top: 0;
+      left: 630px;
+    }
+
+    &__certificate--second {
+      top: 0;
+      left: 1040px;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__transfer_1820 {
+      display: none;
+    }
+
+    &__swiper_1460 {
+      display: block;
+    }
+
+    &__certificates-wrap {
+      display: none;
+    }
+  }
+
+  .list {
+    &__item {
+      width: 33%;
+    }
+  }
+
+  // PHOTO //
+
+  .photo {
+    &__img {
+      width: 500px;
+      height: 500px;
+    }
+  }
+
+  // ADDRESS //
+
+  .address {
+    &__title {
+      text-align: center;
+    }
+  }
+
+  .info {
+    &__subtitle {
+      min-width: 120px;
+    }
+  }
+}
+
+@media (max-width: 1460px) {
+  // HEADER //
+
+  .header {
+    padding: 25px 0;
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 20px;
+    }
+
+    &__logo-wrap {
+      margin: 0;
+    }
+  }
+
+  // HERO //
+
+  .hero {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .description {
+    &__title {
+      font-size: 34px;
+    }
+
+    &__subtitle {
+      font-size: 24px;
+    }
+
+    &__item {
+      font-size: 18px;
+    }
+  }
+
+  .form {
+    padding: 30px 15px;
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__descr {
+      font-size: 16px;
+    }
+  }
+
+  .custom-checkbox {
+    &__text {
+      font-size: 12px;
+    }
+  }
+
+  // PHOTO //
+
+  .photo {
+    &__img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+
+  // FOOTER //
+
+  .footer {
+    &__inner {
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+
+    &__logo-wrap {
+      margin: 0;
+    }
+
+    &__copyright {
+      margin: 0;
+      order: 3;
+    }
+  }
+}
+
+@media (max-width: 1112px) {
+  // HERO //
+
+  .hero {
+    &__container {
+      column-gap: 24px;
+    }
+
+    &__form-wrap {
+      width: 36%;
+    }
+  }
+
+  .description {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__list {
+      padding-left: 20px;
+    }
+
+    &__item {
+      max-width: 460px;
+    }
+  }
+
+  .form {
+    &__descr {
+      font-size: 14px;
+    }
+
+    &__input-name,
+    &__input-tel,
+    &__input-descr {
+      font-size: 16px;
+    }
+
+    &__btn {
+      font-size: 14px;
+    }
+  }
+
+  .custom-checkbox {
+    max-width: 90%;
+    &__text {
+      padding-left: 20px;
+      font-size: 10px;
+    }
+  }
+
+  // PHOTO //
+
+  .photo {
+    &__img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  // ADDRESS //
+
+  .address {
+    &__position-wrap {
+      flex-direction: column;
+      row-gap: 24px;
+    }
+
+    &__map-container {
+      display: none;
+    }
+  }
+
+  .info {
+    &__address {
+      font-size: 16px;
+      line-height: 25px;
+    }
+
+    &__chedule {
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: 3px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  // HEADER //
+
+  .header {
+    &__name {
+      font-size: 20px;
+    }
+  }
+
+  .nav {
+    &__list {
+      column-gap: 35px;
+      font-size: 18px;
+    }
+  }
+
+  // HERO //
+
+  .hero {
+    &__container {
+      flex-direction: column;
+    }
+
+    &__description {
+      width: 100%;
+    }
+
+    &__form-wrap {
+      width: 100%;
+    }
+  }
+
+  .description {
+    &__item {
+      max-width: 100%;
+    }
+  }
+
+  // SERVICES //
+
+  .services {
+    padding-bottom: 15px;
+    &__swiper_1460-wrap {
+      width: 100%;
+    }
+
+    &__certificate-swiper {
+      width: 63%;
+    }
+  }
+
+  .list {
+    &__item {
+      width: 80%;
+      min-height: 470px;
+    }
+  }
+
+  // PHOTO //
+
+  .photo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &__list {
+      gap: 24px;
+    }
+
+    &__img {
+      width: 340px;
+      height: 340px;
+    }
+  }
+
+  // ADDRESS //
+
+  .address {
+    padding-top: 15px;
+  }
+
+  .info {
+    &__tel {
+      font-size: 16px;
+    }
+
+    &__mail {
+      font-size: 16px;
+    }
+  }
+
+  // FOOTER //
+
+  .footer {
+    &__name {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 564px) {
+  // HEADER //
+
+  .header {
+    padding: 15px 0;
+
+    &__name {
+      font-size: 18px;
+    }
+  }
+
+  .nav {
+    max-width: 100%;
+    overflow: scroll;
+    &__list {
+      padding-bottom: 5px;
+      min-width: 450px;
+      font-size: 16px;
+    }
+  }
+
+  // HERO //
+
+  .description {
+    &__title {
+      font-size: 24px;
+    }
+
+    &__subtitle {
+      font-size: 18px;
+    }
+
+    &__item {
+      font-size: 16px;
+    }
+  }
+
+  // SERVICES //
+
+  .services {
+    &__inner {
+      gap: 16px;
+    }
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__descr {
+      font-size: 16px;
+    }
+
+    &__certificate-swiper {
+      width: 71%;
+    }
+  }
+
+  .card {
+    &__subtitle {
+      font-size: 16px;
+    }
+
+    &__descr {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    &__btn {
+      font-size: 16px;
+    }
+  }
+
+  // PHOTO //
+
+  .photo {
+    &__title {
+      font-size: 24px;
+    }
+
+    &__list {
+      gap: 16px;
+    }
+
+    &__img {
+      width: 270px;
+      height: 300px;
+    }
+  }
+
+  // ADDRESS //
+
+  .address {
+    &__title {
+      font-size: 24px;
+    }
+
+    &__contacts-wrap {
+      padding: 15px;
+    }
+  }
+
+  .info {
+    &__subtitle {
+      font-size: 18px;
+      justify-content: center;
+    }
+
+    &__address {
+      font-size: 16px;
+    }
+
+    &__chapter {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 10px;
+    }
+
+    &__chedule {
+      font-size: 14px;
+    }
+
+    &__btn {
+      text-align: center;
+    }
+  }
+
+  // FOOTER //
+
+  .footer {
+    padding: 15px;
+    &__inner {
+      gap: 16px;
+    }
+
+    &__name {
+      font-size: 18px;
+    }
+
+    &__vk-icon {
+      width: 52px;
+      height: 52px;
+    }
+
+    &__tg-icon {
+      width: 52px;
+      height: 52px;
+    }
+    &__ws-icon {
+      width: 52px;
+      height: 52px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Comfortaa", sans-serif;
+  --content-width: 1920px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --white: #fff;
+  --black: #000;
+  --gray: #c8c8c8;
+  --gray-2: #858585;
+  --gray-3: #575656;
+  --lochmara: #0144c2;
+
+  --vk-default: #1976d2;
+  --vk-hover: #2e94fa;
+  --vk-active: #1a63ad;
+
+  --ws-default: #40c351;
+  --ws-hover: #57f16c;
+  --ws-active: #279135;
+  --ws-default-2: #cfd8dc;
+
+  --tg-default: #29b6f6;
+  --tg-hover: #157baa;
+  --tg-active: #40b8ef;
+}

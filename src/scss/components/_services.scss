@@ -1,0 +1,211 @@
+// SERVICES //
+
+.services {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  &__inner {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__card-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    z-index: 2;
+  }
+
+  &__card-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    gap: 16px;
+  }
+
+  &__description {
+    width: 50%;
+  }
+
+  &__title {
+    font-size: 38px;
+  }
+
+  &__title--services {
+    margin-bottom: 15px;
+  }
+
+  &__descr {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  &__descr:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &__registry {
+    text-decoration: underline;
+  }
+
+  &__certificate-wrap {
+    position: relative;
+    display: block;
+    width: 390px;
+    transform: rotate(-90deg);
+  }
+
+  &__certificate {
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    border: 1px solid var(--black);
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+  }
+
+  &__certific-wrap {
+    position: relative;
+    display: block;
+    width: 350px;
+    transform: rotate(90deg);
+  }
+
+  &__certificate--first {
+    left: 40px;
+    top: 420px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  &__certificate--second {
+    left: 510px;
+    top: 420px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  &__swiper_1460 {
+    display: none;
+  }
+}
+
+.list {
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 40%;
+    min-height: 580px;
+    border-radius: 15px;
+  }
+}
+
+.card {
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+
+  &__img-wrap {
+    margin-bottom: 15px;
+    min-height: 245px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  &__img-wrap--moto {
+    background-image: url("../img/moto.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__img-wrap--autoB {
+    background-image: url("../img/autoB.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__img-wrap--autoN1 {
+    background-image: url("../img/autoN1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__img-wrap--autoC {
+    background-image: url("../img/autoC.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__img-wrap--number-fl {
+    background-image: url("../img/number-fl.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__img-wrap--number-without-fl {
+    background-image: url("../img/number-without-fl.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__img-wrap--adjustment {
+    background-image: url("../img/adjustment.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__img-wrap--pass {
+    background-image: url("../img/pass.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__img-wrap--gas {
+    background-image: url("../img/gas.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  &__img-wrap--auto-school {
+    background-image: url("../img/auto-school.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  &__descr {
+    margin: 0;
+    margin-bottom: auto;
+    text-align: left;
+  }
+
+  &__price {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    align-self: center;
+  }
+}
